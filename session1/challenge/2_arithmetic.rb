@@ -9,4 +9,7 @@
 # arithmetic2(-6, -7)  # => -3.5
 
 def arithmetic2(a, b)
+  # Had this originally wrapped in an "if else end" statement, however found the short-hand to be cleaner
+  return a / 2.0 if a < b
+  return b / 2.0
 end
